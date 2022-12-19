@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/main.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item">
+                    <a href="" class="header__link">
+                        <svg class="header__svg">
+                            <use href="./img/icon.svg#icon-menu-mob" width="19" height="12"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="header__item">
+                    <a href="" class="header__link">
+                        <svg class="header__svg">
+                            <use href="./img/icon.svg#icon-location" width="12" height="17"></use>
+                        </svg> 
+                    </a>
+                    <select name="select" class="header__select"> <!--Supplement an id here instead of using 'name'-->
+                        <option value="value1">Current Location</option>
+                        <option value="value2" selected>Railway Station</option>
+                        <option value="value3">District 13</option>
+                    </select>
+                </li>
+                <li class="header__item">
+                    <a href="" class="header__link">
+                        <svg class="header__svg">
+                            <use href="./img/icon.svg#icon-libra" width="20" height="17"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="header__search">
+            <img class="header__photo" src="./img/man.jpg" alt="client">
+            <form action="">
+                <input class="header__input" 
+                name=""
+                type="text"
+                placeholder="Type food or restaurant name. . ."
+                required
+                list="menu">
+                <datalist id="menu">
+                    <option value="burder"></option>
+                    <option value="sushi"></option>
+                    <option value="juce"></option>
+                </datalist>
+            </form>
+        </div>
+    </header>
+    <main>
+        <section class="category">
+            <h3 class="category__tittle">Popular Category</h3>
+            <h4 class="category__pretitle">Choose your good from here</h4>
+            <ul class="category__list"> 
+                <li class="category__item">
+                    <a href="" class="category__link">
+                        <svg class="category__svg">
+                            <use href="./img/icon.svg#icon-donat" widht="34" height="34"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="category__item">
+                    <a href="" class="category__link">
+                        <svg class="category__svg">
+                            <use href="./img/icon.svg#icon-burger" widht="35" height="35"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="category__item">
+                    <a href="" class="category__link">
+                        <svg class="category__svg">
+                            <use href="./img/icon.svg#icon-donat" widht="34" height="34"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="category__item">
+                    <a href="" class="category__link">
+                        <svg class="category__svg">
+                            <use href="./img/icon.svg#icon-hotdog" widht="38" height="21"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="category__item">
+                    <a href="" class="category__link">
+                        <svg class="category__svg">
+                            <use href="./img/icon.svg#icon-icecream" widht="20" height="34"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="category__item">
+                    <a href="" class="category__link">
+                        <svg class="category__svg">
+                            <use href="./img/icon.svg#icon-pizza" widht="38" height="35"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="category__item">
+                    <a href="" class="category__link">
+                        <svg class="category__svg">
+                            <use href="./img/icon.svg#icon-jucie" widht="26" height="36"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="category__item">
+                    <a href="" class="category__link">
+                        <svg class="category__svg">
+                            <use href="./img/icon.svg#icon-soup" widht="36" height="35"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img class="swiper__img" src="./img/burger1.jpg" alt=""/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper__img" src="./img/burger2.jpg" alt=""/>
+                    </div>
+                    <div class="swiper-slide">
+                        <img class="swiper__img" src="./img/burger3.jpg" alt=""/>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="menu">
+            <ul class="menu__list-categories">
+                <li class="menu__item-categories"><a class="menu__link-categories underline" href="">Popular</a></li>
+                <li class="menu__item-categories"><a class="menu__link-categories" href="">Free Delivery</a></li>
+                <li class="menu__item-categories"><a class="menu__link-categories" href="">Recent Added</a></li>
+            </ul>
+            <ul class="menu__list-food">
+                <li class="menu__item-food">
+                    <img class="menu__img-food" src="./img/home1.jpg" alt="">
+                    <ul class="menu__list-descr">
+                        <li class="menu__item-descr">
+                            <h3 class="menu__title">Meat</h3>
+                            <p class="menu__price">30$</p>
+                        </li>
+                        <li class="menu__item-descr">
+                            <button class="menu__btn-order">Order</button>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__item-food">
+                    <img class="menu__img-food" src="./img/home2.jpg" alt="">
+                    <ul class="menu__list-descr">
+                        <li class="menu__item-descr">
+                            <h3 class="menu__title">Eggs</h3>
+                            <p class="menu__price">15$</p>
+                        </li>
+                        <li class="menu__item-descr">
+                            <button class="menu__btn-order">Order</button>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__item-food">
+                    <img class="menu__img-food" src="./img/home3.jpg" alt="">
+                    <ul class="menu__list-descr">
+                        <li class="menu__item-descr">
+                            <h3 class="menu__title">Waffles</h3>
+                            <p class="menu__price">22$</p>
+                        </li>
+                        <li class="menu__item-descr">
+                            <button class="menu__btn-order">Order</button>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu__item-food">
+                    <img class="menu__img-food" src="./img/home4.jpg" alt="">
+                    <ul class="menu__list-descr">
+                        <li class="menu__item-descr">
+                            <h3 class="menu__title">Pancaces</h3>
+                            <p class="menu__price">20$</p>
+                        </li>
+                        <li class="menu__item-descr">
+                            <button class="menu__btn-order">Order</button>
+                        </li>
+                    </ul>
+                </img>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a  class="footer__link" href="">
+                        <svg class="footer__svg">
+                            <use href="./img/icon.svg#icon-profile" width="20" height="21"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a  class="footer__link" href="">
+                        <svg class="footer__svg">
+                            <use href="./img/icon.svg#icon-suport" width="20" height="21"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a  class="footer__link" href="">
+                        <svg class="footer__svg">
+                            <use href="./img/icon.svg#icon-pencil" width="20" height="21"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a  class="footer__link" href="">
+                        <svg class="footer__svg">
+                            <use href="./img/icon.svg#icon-about" width="20" height="21"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a  class="footer__link" href="">
+                        <svg class="footer__svg">
+                            <use href="./img/icon.svg#icon-phone" width="20" height="21"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__item">
+                    <a  class="footer__link" href="">
+                        <svg class="footer__svg">
+                            <use href="./img/icon.svg#icon-chat" width="20" height="21"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </footer>
+    <script src="js/homepage.js"></script>
+</body>
+</html>
