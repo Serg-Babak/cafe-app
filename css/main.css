@@ -263,7 +263,6 @@ p {
     padding-bottom: 25px;
     background-color: #FFFFFF;
     box-shadow: -3px 1px 33px 1px #858282;
-    filter: blur(1px);
   }
   .footer__list {
     display: flex;
@@ -302,5 +301,67 @@ p {
     transform: scale(1.4);
     z-index: 2;
     border-radius: 12px;
+  }
+  .action {
+    width: 354px;
+    height: 70px;
+  }
+  .action-list {
+    display: flex;
+    align-items: center;
+  }
+  .action-item {
+    display: flex;
+  }
+  .action-img {
+    border-radius: 10px;
+  }
+  .action-name {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 10px;
+  }
+  .action-rews {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+  }
+  .action-price {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: line-through;
+    font-feature-settings: "tnum" on, "lnum" on;
+    color: #ABABAB;
+  }
+  .action-newprice {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    text-decoration-line: none;
+  }
+  .counter-div {
+    width: 70px;
+    height: 30px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  .counterbtn {
+    background-color: #fff;
   }
 }/*# sourceMappingURL=main.css.map */
