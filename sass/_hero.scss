@@ -186,6 +186,13 @@
     background-color: #fff;
     padding: 0 10px;
 }
+.footer__logo{
+    position: relative;
+    bottom: 56px;
+    right: 20px;
+    filter: drop-shadow(-1px 0px 31px #FC6767);
+}
+
 }
 @media screen and (min-width: 481px){
     body{

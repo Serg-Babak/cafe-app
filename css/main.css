@@ -272,6 +272,7 @@ p {
   .footer__item {
     width: 21px;
     height: 21px;
+    margin: 0px 15px;
   }
   .footer__svg {
     width: 21px;
@@ -537,6 +538,12 @@ p {
   .hero__counterbtn {
     background-color: #fff;
     padding: 0 10px;
+  }
+  .footer__logo {
+    position: relative;
+    bottom: 56px;
+    right: 20px;
+    filter: drop-shadow(-1px 0px 31px #FC6767);
   }
 }
 @media screen and (min-width: 481px) {
