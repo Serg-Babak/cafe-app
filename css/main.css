@@ -449,4 +449,98 @@ p {
     justify-content: center;
     gap: 41px;
   }
+  .hero__category-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 27px;
+    padding: 21px 0;
+  }
+  .hero__category-link {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+  }
+  .hero__action {
+    margin: 0 30px;
+  }
+  .hero__action-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 21px;
+  }
+  .hero__action-item {
+    display: flex;
+  }
+  .hero__action-img {
+    border-radius: 10px;
+  }
+  .hero__action-name {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 15px;
+    width: 85px;
+  }
+  .hero__action-namelist {
+    display: flex;
+    padding-left: 6px;
+    padding-right: 23px;
+  }
+  .hero__action-rews {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
+    padding-left: 15px;
+  }
+  .hero__action-price {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-decoration-line: line-through;
+    font-feature-settings: "tnum" on, "lnum" on;
+    color: #ABABAB;
+  }
+  .hero__action-newprice {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+    text-decoration-line: none;
+  }
+  .hero__counter-div {
+    width: 70px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero__counterbtn {
+    background-color: #fff;
+    padding: 0 10px;
+  }
+}
+@media screen and (min-width: 481px) {
+  body {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
