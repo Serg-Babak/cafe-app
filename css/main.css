@@ -120,17 +120,21 @@ p {
   .header__search {
     display: flex;
     margin-bottom: 26px;
+    padding: 0 40px;
   }
   .header__photo {
     margin-right: 1px;
   }
+  .header__form {
+    margin-left: 17px;
+    width: 100%;
+  }
   .header__input {
-    width: 264px;
+    width: 100%;
     height: 53px;
     background: #FFFFFF;
     border-radius: 8px;
     padding-left: 41px;
-    margin-left: 17px;
   }
   .recomended__title {
     font-family: "Roboto";
@@ -150,6 +154,12 @@ p {
     text-align: center;
     color: #000000;
   }
+  .homepage-main {
+    padding-bottom: 100px;
+  }
+  .category {
+    padding: 0 40px;
+  }
   .category__tittle {
     font-family: "Roboto";
     font-style: normal;
@@ -158,7 +168,6 @@ p {
     line-height: 23px;
     text-align: center;
     color: #000000;
-    margin-top: 30px;
   }
   .category__pretitle {
     font-family: "Roboto";
@@ -173,7 +182,7 @@ p {
   .category__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
   }
   .category__item {
     display: flex;
@@ -223,15 +232,26 @@ p {
     background-color: rgb(0, 0, 0);
   }
   .menu__item-food {
-    padding-bottom: 15px;
+    padding: 0 57px 15px;
   }
   .menu__img-food {
     display: flex;
     border-radius: 12px;
     margin-bottom: 13px;
+    width: 100%;
   }
   .menu__list-descr {
     display: flex;
+    justify-content: space-between;
+  }
+  .menu__item-descr {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #000000;
   }
   .menu__title {
     font-family: "Roboto";
