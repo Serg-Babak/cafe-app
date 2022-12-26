@@ -263,6 +263,9 @@ p {
     padding-bottom: 25px;
     background-color: #FFFFFF;
     box-shadow: -3px 1px 33px 1px #858282;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
   }
   .footer__list {
     display: flex;
@@ -449,6 +452,9 @@ p {
     display: flex;
     justify-content: center;
     gap: 41px;
+  }
+  .hero__main {
+    padding-bottom: 50px;
   }
   .hero__category-list {
     display: flex;

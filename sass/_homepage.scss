@@ -203,6 +203,9 @@ body{
     padding-bottom: 25px;
     background-color: #FFFFFF;
     box-shadow: -3px 1px 33px 1px #858282;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
 }
 .footer__list {
     display: flex;
