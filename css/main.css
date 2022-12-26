@@ -196,6 +196,9 @@ p {
     border-radius: 50%;
     margin-bottom: 15px;
   }
+  .category__item:nth-child(2) {
+    background-color: #FB7A7A;
+  }
   .category__link {
     display: flex;
     justify-content: center;

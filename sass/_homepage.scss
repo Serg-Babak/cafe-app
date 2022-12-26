@@ -130,7 +130,10 @@ body{
     background-color: #FFFFFF;
     border-radius: 50%;
     margin-bottom: 15px;
-
+    &:nth-child(2){
+        background-color: #FB7A7A;
+        ;
+    }
 }
 .category__link {
     display: flex;
