@@ -6,12 +6,13 @@ body{
 }
 .header__nav {
     margin-top: 52px;
-    margin-bottom: 30px;
+    margin-bottom: 26px;
+    padding: 0 40px;
 
 }
 .header__list {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 .header__select{
@@ -34,7 +35,7 @@ body{
 }
 .header__search {
     display: flex;
-    margin-bottom: 26px;
+    margin-bottom: 46px;
     padding: 0 40px;
 
 }
@@ -89,7 +90,8 @@ body{
     padding-bottom: 100px;
 }
 .category {
-    padding: 0 40px;
+    padding: 35px 40px 28px;
+    background-color: #FFDBDB;
 }
 .category__tittle {
     font-family: 'Roboto';
@@ -114,9 +116,10 @@ body{
 .category__list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     // justify-content: center;
     // align-items: center;
-    gap: 10px;
+    // gap: 10px;
 }
 .category__item {
     display: flex;
@@ -126,6 +129,8 @@ body{
     width: 69px;
     background-color: #FFFFFF;
     border-radius: 50%;
+    margin-bottom: 15px;
+
 }
 .category__link {
     display: flex;
@@ -140,9 +145,10 @@ body{
 }
 .menu__list-categories {
     display: flex;
-    padding-top: 35px;
-    padding-bottom: 25px;
-    position: relative;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    padding: 0 57px;
+    justify-content: space-between;
 }
 .menu__item-categories {
     position: relative;
@@ -169,7 +175,7 @@ body{
 .menu__list-food {
 }
 .menu__item-food {
-    padding: 0 57px 15px;
+    padding: 0 40px 15px;
 }
 .menu__img-food {
     display: flex;

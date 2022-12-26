@@ -148,7 +148,8 @@ padding-bottom: 50px;
     text-align: center;
     color: #000000;
     margin-bottom: 15px;
-        width: 85px;
+    width: 85px;
+    text-align: start;
 }
 // new style
 .hero__action-namelist {
@@ -178,6 +179,7 @@ padding-bottom: 50px;
     text-decoration-line: line-through;
     font-feature-settings: 'tnum' on, 'lnum' on;
     color: #ABABAB;
+    text-align: start;
 }
 .hero__action-newprice {
     font-family: 'Roboto';
