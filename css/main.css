@@ -660,7 +660,6 @@ p {
   }
   .revs__descr-list {
     display: flex;
-    align-items: center;
   }
   .reviews__description:nth-child(2) {
     width: 100%;
