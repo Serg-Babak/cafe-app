@@ -67,8 +67,8 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 18px;
-        line-height: 21px;
+        font-size: 15px;
+        line-height: 18px;
         padding: 0 40px;
         /* identical to box height */
         width: 300px;
@@ -77,7 +77,7 @@
     }
 
     .swiper-pagination {
-        /* position: absolute; */
+        // position: relative; 
     }
     .location__list-btn {
         padding: 0 46px 30px;
