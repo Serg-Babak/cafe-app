@@ -1,0 +1,74 @@
+@media screen and (max-width: 480px){
+.about__main{
+    padding-bottom: 80px;
+}
+.about__menu {
+    padding: 26px 40px 25px;
+
+}
+.about__menu-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #A7A2A2;
+}
+.about__menu-item {
+    margin-bottom: 14px;
+}
+.about__menu-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    position:relative;
+}
+.about__menu-span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    color: #000000;
+}
+.about__underline::after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    border-radius: 2px;
+    margin-bottom: -14px;
+    width: 100%;
+    height: 6px;
+    background-color: #eb7070;
+}
+.about__location {
+}
+.about__location-list {
+}
+.about__location-item {
+    padding: 0 40px;
+    justify-content: flex-start;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+.about__location-svg {
+    width: 12px;
+    height: 17px;
+    margin-right: 17px;
+}
+.about__location-descr {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    color: #858282;
+}
+.about__location-map {
+}
+}
