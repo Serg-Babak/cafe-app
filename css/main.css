@@ -460,7 +460,7 @@ p {
     font-size: 10px;
     line-height: 12px;
     text-align: center;
-    color: #FFFFFF;
+    color: orange;
   }
   .hero__svg {
     height: 20px;
@@ -604,8 +604,11 @@ p {
   .footer__logo {
     position: relative;
     bottom: 56px;
-    right: 20px;
+    right: 30px;
     filter: drop-shadow(-1px 0px 31px #FC6767);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
   }
   .container {
     display: flex;
