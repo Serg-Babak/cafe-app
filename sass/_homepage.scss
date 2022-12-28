@@ -154,7 +154,7 @@ body{
 }
 .menu__list-categories {
     display: flex;
-    margin-top: 35px;
+    margin-top: 15px;
     margin-bottom: 25px;
     padding: 0 57px;
     justify-content: space-between;
@@ -272,6 +272,20 @@ body{
   }
   .swiper__img{
     border-radius: 12px;
+    position: relative;
+  }
+  .swiper-text{
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 66%;
+    text-decoration: underline;
+
   }
   .swiper-wrapper {
     

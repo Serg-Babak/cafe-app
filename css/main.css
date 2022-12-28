@@ -210,7 +210,7 @@ p {
   }
   .menu__list-categories {
     display: flex;
-    margin-top: 35px;
+    margin-top: 15px;
     margin-bottom: 25px;
     padding: 0 57px;
     justify-content: space-between;
@@ -316,6 +316,19 @@ p {
   }
   .swiper__img {
     border-radius: 12px;
+    position: relative;
+  }
+  .swiper-text {
+    position: absolute;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    top: 66%;
+    text-decoration: underline;
   }
   .swiper-slide {
     text-align: center;
@@ -820,9 +833,8 @@ p {
   }
   .map {
     box-shadow: 0px 4px 34px -5px rgba(0, 0, 0, 0.25);
-    border-radius: 6px;
+    border-radius: 40px;
     margin-top: 50px;
-    margin-bottom: 50px;
     /* margin: 0 auto; */
     /* padding: 0 15px; */
     display: flex;
